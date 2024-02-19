@@ -5,6 +5,7 @@ namespace Srmklive\PayPal\Traits;
 trait PayPalAPI
 {
     use PayPalAPI\Trackers;
+    use PayPalAPI\BillingAgreements;
     use PayPalAPI\CatalogProducts;
     use PayPalAPI\Disputes;
     use PayPalAPI\DisputesActions;
@@ -17,6 +18,7 @@ trait PayPalAPI
     use PayPalAPI\PaymentExperienceWebProfiles;
     use PayPalAPI\PaymentMethodsTokens;
     use PayPalAPI\PaymentAuthorizations;
+    use PayPalAPI\PaymentCapturesV1;
     use PayPalAPI\PaymentCaptures;
     use PayPalAPI\PaymentRefunds;
     use PayPalAPI\Payouts;
